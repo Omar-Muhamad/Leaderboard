@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* ############# General Style ############# */
 body {
   background-color: bisque;
@@ -38,6 +39,7 @@ ul {
 input {
   padding: 5px;
 }
+
 /* ############# Scores Section ############# */
 .scores {
   width: 80%;
@@ -47,7 +49,7 @@ input {
   column-gap: 50px;
 }
 
-.secTitle{
+.secTitle {
   display: flex;
   justify-content: space-between;
   align-items: center;
