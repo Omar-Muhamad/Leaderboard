@@ -21,11 +21,11 @@
 - JavaScript.
 - Linters.
 
-## Install:
+## Install
 
 - Install node.js from [HERE](https://nodejs.org/en/).
   
-## Deployment:
+## Deployment
 
 1. Clone the project using git-bash or Githup Desktop.
 2. Open the project folder with VSCode or any Editor.
