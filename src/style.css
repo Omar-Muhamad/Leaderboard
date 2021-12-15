@@ -1,4 +1,81 @@
+/* ############# Reset Style ############# */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ############# General Style ############# */
 body {
   background-color: bisque;
-  color:red;
+  font-family: 'Noto Sans Display', sans-serif;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  margin: 30px auto;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+button {
+  font-size: 0.9em;
+  font-weight: 600;
+  padding: 5px 13px;
+  border: 2px solid #000;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  padding: 5px;
+}
+/* ############# Scores Section ############# */
+.scores {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 40%;
+  column-gap: 50px;
+}
+
+.secTitle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scoresContainer {
+  margin-top: 30px;
+  border: 2px solid #000;
+  background-color: #fff;
+}
+
+.score {
+  background-color: #fff;
+  padding: 5px;
+}
+
+.score:nth-child(even) {
+  background-color: rgb(243, 193, 132);
+}
+
+.AddScoreForm {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.submitBtn {
+  width: fit-content;
+  align-self: flex-end;
 }

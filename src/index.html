@@ -4,11 +4,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wbpack Exercise</title>
+  <title>Leaderboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <h1>Hello webpack!</h1>
+  <header>
+    <h1>Leaderboard</h1>
+  </header>
+  <section class="scores">
+    <div class="recentScore">
+      <div class="secTitle">
+        <h2>Recent Scores</h2>
+        <button type="button" class="refreshBtn" id="refreshBtn">Refresh</button>
+      </div>
+      <div class="scoresContainer">
+        <ul class="scoreList">
+          <li class="score">
+            <p>Name: 100</p>
+          </li>
+          <li class="score">
+            <p>Name: 20</p>
+          </li>
+          <li class="score">
+            <p>Name: 50</p>
+          </li>
+          <li class="score">
+            <p>Name: 87</p>
+          </li>
+          <li class="score">
+            <p>Name: 150</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="addYourScore">
+      <h2>Add your score</h2>
+      <form class="AddScoreForm" action="submit">
+        <input type="text" class="yourName" id="yourName" placeholder="Your name" required>
+        <input type="text" class="yourScore" id="yourScore" placeholder="Your score" required>
+        <button type="submit" class="submitBtn" id="submitBtn">Submit</button>
+      </form>
+    </div>
+  </section>
 </body>
 
 </html>
