@@ -23,7 +23,7 @@
 
 ## Install:
 
-- Install node.js from ![HERE](https://nodejs.org/en/).
+- Install node.js from [HERE](https://nodejs.org/en/).
   
 ## How to run locally:
 
