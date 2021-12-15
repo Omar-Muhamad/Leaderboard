@@ -37,7 +37,8 @@ ul {
 }
 
 input {
-  padding: 5px;
+  padding: 7px;
+  border: 2px solid #000;
 }
 
 /* ############# Scores Section ############# */
