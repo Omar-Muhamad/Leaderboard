@@ -8,6 +8,9 @@
   2. Make webpack generate files auto. on /dist directory.
   3. Make site structure with styling.
   4. Add linters files.
+  5. Add API consuming functions.
+  6. Add renderScore, resetScore functions,  event listeners.
+  7. Check linters errors and edit README file.   
 
 # Site Screenshots
 
