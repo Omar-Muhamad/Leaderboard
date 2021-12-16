@@ -62,12 +62,14 @@ input {
   background-color: #fff;
 }
 
-.score {
+.listItem {
   background-color: #fff;
-  padding: 5px;
+  padding: 5px 20px;
+  display: flex;
+  gap: 20px;
 }
 
-.score:nth-child(even) {
+.listItem:nth-child(even) {
   background-color: rgb(243, 193, 132);
 }
 

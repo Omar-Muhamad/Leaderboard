@@ -21,30 +21,16 @@
         <button type="button" class="refreshBtn" id="refreshBtn">Refresh</button>
       </div>
       <div class="scoresContainer">
-        <ul class="scoreList">
-          <li class="score">
-            <p>Name: 100</p>
-          </li>
-          <li class="score">
-            <p>Name: 20</p>
-          </li>
-          <li class="score">
-            <p>Name: 50</p>
-          </li>
-          <li class="score">
-            <p>Name: 87</p>
-          </li>
-          <li class="score">
-            <p>Name: 150</p>
-          </li>
+        <ul class="scoreList" id="scoreList">
+          
         </ul>
       </div>
     </div>
     <div class="addYourScore">
       <h2>Add your score</h2>
-      <form class="AddScoreForm" action="submit">
-        <input type="text" class="yourName" id="yourName" placeholder="Your name" required>
-        <input type="text" class="yourScore" id="yourScore" placeholder="Your score" required>
+      <form class="AddScoreForm" id="AddScoreForm" action="submit">
+        <input type="text" name="user" class="yourName" id="yourName" placeholder="Your name" required>
+        <input type="text" name="score" class="yourScore" id="yourScore" placeholder="Your score" required>
         <button type="submit" class="submitBtn" id="submitBtn">Submit</button>
       </form>
     </div>
