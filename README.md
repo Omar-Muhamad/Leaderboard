@@ -2,6 +2,8 @@
 
 # Leaderboard
 
+**This is a Webpack Project Leaderboard and use API to add your game score and see a list of the other scores**
+
 **What I did in this project:**
 
   1. Setup webpack.
